@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.8.0_25)" generated="20150125 16:42:18.177">
+<suite source="C:\Users\adami_000\Documents\GitHub\jsu-mcis-cs310-tictactoe\acceptance\TictactoeTests.txt" name="TictactoeTests" id="s1">
+<test name="Win Diagonally as X" id="s1-t1">
+<kw type="kw" name="Start New Game">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150125 16:42:18.604">No keyword with name 'Start New Game' found.</msg>
+<status endtime="20150125 16:42:18.605" starttime="20150125 16:42:18.601" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150125 16:42:18.609" starttime="20150125 16:42:18.596" status="FAIL">No keyword with name 'Start New Game' found.</status>
+</test>
+<test name="Win Horizontally as O" id="s1-t2">
+<kw type="kw" name="Start New Game">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150125 16:42:18.624">No keyword with name 'Start New Game' found.</msg>
+<status endtime="20150125 16:42:18.625" starttime="20150125 16:42:18.622" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150125 16:42:18.627" starttime="20150125 16:42:18.615" status="FAIL">No keyword with name 'Start New Game' found.</status>
+</test>
+<test name="Force a Tie" id="s1-t3">
+<kw type="kw" name="Start New Game">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150125 16:42:18.637">No keyword with name 'Start New Game' found.</msg>
+<status endtime="20150125 16:42:18.638" starttime="20150125 16:42:18.635" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150125 16:42:18.640" starttime="20150125 16:42:18.631" status="FAIL">No keyword with name 'Start New Game' found.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20150125 16:42:18.645" starttime="20150125 16:42:18.180" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" name="TictactoeTests" id="s1">TictactoeTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20150125 16:42:18.588">Error in file 'C:\Users\adami_000\Documents\GitHub\jsu-mcis-cs310-tictactoe\acceptance\TictactoeTests.txt': Importing test library 'TictactoeKeywords' failed: ImportError: No module named TictactoeKeywords
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\RobotFramework\robotframework-2.8.5.jar\Lib\robot\libraries
+  C:\RobotFramework\robotframework-2.8.5.jar\Lib
+  C:\RobotFramework\Lib
+  __classpath__
+  __pyclasspath__/
+  .
+  C:\Users\adami_000\Documents\GitHub\jsu-mcis-cs310-tictactoe\acceptance
+CLASSPATH:
+  .
+  ..\build\classes\main
+  C:\RobotFramework\robotframework-2.8.5.jar</msg>
+</errors>
+</robot>

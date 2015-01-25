@@ -1,4 +1,6 @@
- 
+ *** Settings ***
+Library           TictactoeKeywords
+
 *** Test Cases ***
 Win Diagonally as X
     Start New Game
